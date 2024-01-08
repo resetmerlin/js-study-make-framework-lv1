@@ -1,0 +1,60 @@
+.todolists__wrapper {
+    width: 55rem;
+    min-height: 35rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    .todolists__title {
+        font-size: 3rem;
+        font-weight: 600;
+        margin: 1rem 0;
+    }
+
+    .todolists__button {
+        border: 1px solid black;
+        background-color: white;
+        font-weight: 600;
+        width: 7rem;
+        height: 2.6rem;
+        cursor: pointer;
+    }
+
+    .todolists__content {
+        width: 80%;
+        border-radius: 0.7rem;
+        padding: 1rem 2rem;
+        height: auto;
+
+        background-color: black;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .todolist {
+        display: flex;
+        width: 100%;
+        height: 5rem;
+        border-radius: 0.3rem;
+        padding: 0.5rem;
+        background-color: white;
+        margin: 1rem 0;
+
+        div {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            width: auto;
+            margin: 0 0.9rem;
+            height: 100%;
+        }
+        .title {
+            font-size: 1.5rem;
+            font-weight: 600;
+        }
+        .subtitle {
+            font-size: 0.8rem;
+            color: rgba(0, 0, 0, 0.8);
+        }
+    }
+}
