@@ -16,9 +16,14 @@
         margin: 0 0.9rem;
         height: 100%;
     }
+
+    input {
+        border: none;
+    }
     .title {
         font-size: 1.5rem;
         font-weight: 600;
+        color: black;
     }
     .subtitle {
         font-size: 0.8rem;
