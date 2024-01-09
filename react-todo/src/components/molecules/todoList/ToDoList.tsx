@@ -7,25 +7,42 @@ type IProps = {
     subtitle: string
     order: number
     deleteTodoList: (order: number) => void
+    editTodoList: (
+        event: React.FormEvent<HTMLFormElement>,
+        order: number
+    ) => void
 }
 export default function ToDoList({
     title,
     subtitle,
     deleteTodoList,
     order,
+    editTodoList,
 }: IProps) {
     return (
-        <div className={styles.todolist}>
+        <form
+            className={styles.todolist}
+            onSubmit={(e) => editTodoList(e, order)}
+        >
             <div>
                 <Checkbox />
             </div>
             <div>
-                <span className={styles.title}>{title}</span>
-                <span className={styles.subtitle}>{subtitle}</span>
+                <input
+                    className={styles.title}
+                    placeholder={title}
+                    id="title"
+                />
+                <input
+                    className={styles.subtitle}
+                    placeholder={subtitle}
+                    id="subtitle"
+                />
             </div>
+            <Button type="submit">Edit</Button>
             <Button type="button" onClick={() => deleteTodoList(order)}>
                 Delete
             </Button>
-        </div>
+        </form>
     )
 }
