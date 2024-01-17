@@ -25,19 +25,19 @@
 
 ## 실습
 
-- [ ]  Vue로 TodoList 만들기
-    - [ ]  Vue CLI로 프로젝트 구성
-    - [ ]  TodoList 만들기
-        - [ ]  목록
-        - [ ]  추가
-        - [ ]  수정
-        - [ ]  삭제
+- [x]  Vue로 TodoList 만들기
+    - [x]  Vue CLI로 프로젝트 구성
+    - [x]  TodoList 만들기
+        - [x]  목록
+        - [x]  추가
+        - [x]  수정
+        - [x]  삭제
         - [ ]  토글
-- [ ]  React로 TodoList 만들기
-    - [ ]  CRA(Create React App)로 프로젝트 구성
-    - [ ]  TodoList 만들기
-        - [ ]  목록
-        - [ ]  추가
-        - [ ]  수정
-        - [ ]  삭제
+- [x]  React로 TodoList 만들기
+    - [x]  CRA(Create React App)로 프로젝트 구성
+    - [x]  TodoList 만들기
+        - [x]  목록
+        - [x]  추가
+        - [x]  수정
+        - [x]  삭제
         - [ ]  토글
